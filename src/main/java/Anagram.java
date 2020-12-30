@@ -1,10 +1,23 @@
-/*
+import java.util.ArrayList;
+import java.util.List;
 
-Since this exercise has a difficulty of > 4 it doesn't come
-with any starter implementation.
-This is so that you get to practice creating classes and methods
-which is an important part of programming in Java.
+public class Anagram {
 
-Please remove this comment when submitting your solution.
+    String firstString = "";
 
-*/
+    public Anagram(String str) {
+        this.firstString = str;
+    }
+
+    public ArrayList<String> match(List<String> stringList){
+        ArrayList<String> matchList = new ArrayList<>();
+
+        for (String checkString : stringList) {
+            // put chars in pool, check if matching
+            // if so, add to matchList
+
+        }
+        return matchList;
+    }
+
+}
